@@ -9,7 +9,7 @@ interface Props {
 export const RegistrationPage: FC<Props> = ({className}) => {
 	const {isMember} = useRegistrationPage()
 	return (
-		<div className={`${className} grid grid-cols-3 grid-rows-1`}>
+		<div className={`${className} bg-white grid grid-cols-3 grid-rows-1`}>
 			<div className="flex flex-col justify-center items-center">
 				<RegistrationForm/>
 			</div>
